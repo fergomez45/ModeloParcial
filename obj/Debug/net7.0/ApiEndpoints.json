@@ -1,0 +1,128 @@
+[
+  {
+    "ContainingType": "ModeloParcial.Controllers.PeliculasController",
+    "Method": "Get",
+    "RelativePath": "api/Peliculas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModeloParcial.Controllers.PeliculasController",
+    "Method": "Post",
+    "RelativePath": "api/Peliculas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pelicula",
+        "Type": "ModeloParcial.Models.Pelicula",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModeloParcial.Controllers.PeliculasController",
+    "Method": "Put",
+    "RelativePath": "api/Peliculas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModeloParcial.Controllers.PeliculasController",
+    "Method": "Delete",
+    "RelativePath": "api/Peliculas/baja/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "motivoBaja",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModeloParcial.Controllers.PeliculasController",
+    "Method": "GetByYears",
+    "RelativePath": "api/Peliculas/Entre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anioDesde",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "anioHasta",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModeloParcial.Controllers.PeliculasController",
+    "Method": "GetByGen",
+    "RelativePath": "api/Peliculas/Genero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idgenero",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "anioDesde",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "anioHasta",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModeloParcial.Controllers.PeliculasController",
+    "Method": "GetById",
+    "RelativePath": "api/Peliculas/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

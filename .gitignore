@@ -1,0 +1,11 @@
+# Ignorar archivos y carpetas de Visual Studio
+.vs/
+*.vscode/
+*.user
+*.suo
+*.exe
+*.dll
+*.obj
+*.log
+*.sql
+*.pdb
